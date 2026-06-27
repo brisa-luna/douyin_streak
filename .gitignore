@@ -1,0 +1,29 @@
+# Personal configuration
+config.json
+
+# Runtime logs and diagnostics
+.douyin_streak_state.json
+*.log
+*.log.*
+failure_*.png
+debug_*.png
+diag_*.png
+dom_*.png
+probe_*.png
+verify_*.png
+verified_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local design notes
+docs/superpowers/

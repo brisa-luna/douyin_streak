@@ -1,0 +1,41 @@
+{
+  "douyin": {
+    "base_url": "https://www.douyin.com",
+    "messages_url": "https://www.douyin.com/chat?isPopup=1"
+  },
+  "schedule": {
+    "hour": 9,
+    "minute": 0
+  },
+  "message": {
+    "type": "emoji",
+    "emoji_keywords": ["早上好", "续火"],
+    "text": "早上好"
+  },
+  "login": {
+    "login_wait_seconds": 180
+  },
+  "run_state": {
+    "skip_if_success_today": true,
+    "file": ".douyin_streak_state.json"
+  },
+  "parallel": {
+    "enabled": true,
+    "max_concurrent": 3
+  },
+  "targets": {
+    "excluded_names": []
+  },
+  "behavior": {
+    "headless": true,
+    "close_browser_after": true,
+    "max_retries": 3,
+    "action_delay_ms": 800,
+    "page_timeout_ms": 30000,
+    "timeout_seconds": 600
+  },
+  "log": {
+    "file": "douyin_streak.log",
+    "keep_days": 30
+  }
+}
